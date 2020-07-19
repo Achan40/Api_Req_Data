@@ -13,3 +13,4 @@ The instance object .keys() will list the available HTTP_Keys within the API. Op
 
 The instance object .endpoints() will list the available endpoints within the API HTTP key. Optional arguements (HTTP_BASE, HTTP_ID, HTTP_key) can be used to change the HTTP base, ID and key.
 
+The instance object .getcsv() requires the endpoint arguement, fetching the data for that endpoint from the API. It also has the same optional arguements as .endpoints() with the endtion of time_range, see the values time_range can take in the [API documentation](https://iexcloud.io/docs/api/). .getcsv() will output a csv file into your working directory
